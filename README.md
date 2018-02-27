@@ -1,0 +1,2 @@
+# foosApp
+foosApp workspace
