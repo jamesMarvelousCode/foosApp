@@ -19,7 +19,7 @@ namespace fooApp_v3
 
         private void ViewStats_Load(object sender, EventArgs e)
         {
-
+            //poop
         }
 
         private void chart1_Click(object sender, EventArgs e)
