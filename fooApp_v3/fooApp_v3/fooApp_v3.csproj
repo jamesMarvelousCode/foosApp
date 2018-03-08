@@ -46,41 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddEditContestantForm.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddEditContestantForm.Designer.cs">
-      <DependentUpon>AddEditContestantForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DialogForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DialogForm.Designer.cs">
-      <DependentUpon>DialogForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Home.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Home.Designer.cs">
-      <DependentUpon>Home.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManageContestants.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManageContestants.Designer.cs">
-      <DependentUpon>ManageContestants.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PlayMatch.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PlayMatch.Designer.cs">
-      <DependentUpon>PlayMatch.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,23 +60,8 @@
     <Compile Include="ViewStats.Designer.cs">
       <DependentUpon>ViewStats.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddEditContestantForm.resx">
-      <DependentUpon>AddEditContestantForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DialogForm.resx">
-      <DependentUpon>DialogForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ManageContestants.resx">
-      <DependentUpon>ManageContestants.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PlayMatch.resx">
-      <DependentUpon>PlayMatch.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

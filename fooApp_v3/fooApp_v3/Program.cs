@@ -16,7 +16,7 @@ namespace fooApp_v3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+            Application.Run(new MainForm());
         }
     }
 }

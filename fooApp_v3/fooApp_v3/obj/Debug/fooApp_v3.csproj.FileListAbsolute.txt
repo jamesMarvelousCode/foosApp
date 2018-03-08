@@ -14,3 +14,20 @@ C:\Users\wilbu\documents\visual studio 2017\Projects\fooApp_v3\fooApp_v3\obj\Deb
 C:\Users\wilbu\documents\visual studio 2017\Projects\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.AddEditContestantForm.resources
 C:\Users\wilbu\documents\visual studio 2017\Projects\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.DialogForm.resources
 C:\Users\wilbu\documents\visual studio 2017\Projects\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.Login.resources
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\bin\Debug\fooApp_v3.exe.config
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\bin\Debug\fooApp_v3.exe
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\bin\Debug\fooApp_v3.pdb
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.csprojResolveAssemblyReference.cache
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.AddEditContestantForm.resources
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.DialogForm.resources
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.Home.resources
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.Login.resources
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.ManageContestants.resources
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.PlayMatch.resources
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.Properties.Resources.resources
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.ViewStats.resources
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.csproj.GenerateResource.Cache
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.csproj.CoreCompileInputs.cache
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.exe
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.pdb
+C:\Users\wilbu\Documents\datGitRepo\foosApp\fooApp_v3\fooApp_v3\obj\Debug\fooApp_v3.MainForm.resources
