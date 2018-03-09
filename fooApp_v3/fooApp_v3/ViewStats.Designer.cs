@@ -53,6 +53,7 @@
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button_exitViewStats = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -304,11 +305,22 @@
             this.checkBox1.Text = "stat";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // button_exitViewStats
+            // 
+            this.button_exitViewStats.Location = new System.Drawing.Point(925, 467);
+            this.button_exitViewStats.Name = "button_exitViewStats";
+            this.button_exitViewStats.Size = new System.Drawing.Size(75, 23);
+            this.button_exitViewStats.TabIndex = 22;
+            this.button_exitViewStats.Text = "EXIT";
+            this.button_exitViewStats.UseVisualStyleBackColor = true;
+            this.button_exitViewStats.Click += new System.EventHandler(this.button_exitViewStats_Click);
+            // 
             // ViewStats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1012, 524);
+            this.Controls.Add(this.button_exitViewStats);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.viewStatsStatusStrip);
@@ -352,5 +364,6 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button_exitViewStats;
     }
 }

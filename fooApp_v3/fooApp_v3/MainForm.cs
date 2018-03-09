@@ -35,6 +35,7 @@ namespace fooApp_v3
             //open the view stats form
             ViewStats viewStats = new ViewStats();
             viewStats.ShowDialog();
+            
         }
 
         private void LoginButton_Click(object sender, EventArgs e)
