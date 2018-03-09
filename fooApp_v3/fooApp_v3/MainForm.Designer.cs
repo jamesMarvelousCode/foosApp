@@ -79,16 +79,8 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button10 = new System.Windows.Forms.Button();
-            this.EditPlayerTab = new System.Windows.Forms.TabPage();
-            this.EditPlayerCancelButton = new System.Windows.Forms.Button();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.button12 = new System.Windows.Forms.Button();
             this.EditTeamTab = new System.Windows.Forms.TabPage();
             this.EditTeamCancelButton = new System.Windows.Forms.Button();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.button14 = new System.Windows.Forms.Button();
             this.LoginTab = new System.Windows.Forms.TabPage();
@@ -103,6 +95,14 @@
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.CreateNewUserButton = new System.Windows.Forms.Button();
             this.FoosStatusStrip = new System.Windows.Forms.StatusStrip();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.button12 = new System.Windows.Forms.Button();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.EditPlayerCancelButton = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.EditPlayerTab = new System.Windows.Forms.TabPage();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.MainTab.SuspendLayout();
             this.HomeTab.SuspendLayout();
             this.StartMatchTab.SuspendLayout();
@@ -111,10 +111,10 @@
             this.ManageWhichTab.SuspendLayout();
             this.AddPlayerTab.SuspendLayout();
             this.AddTeamTab.SuspendLayout();
-            this.EditPlayerTab.SuspendLayout();
             this.EditTeamTab.SuspendLayout();
             this.LoginTab.SuspendLayout();
             this.NewUserTab.SuspendLayout();
+            this.EditPlayerTab.SuspendLayout();
             this.SuspendLayout();
             // 
             // MainTab
@@ -130,14 +130,15 @@
             this.MainTab.Controls.Add(this.EditTeamTab);
             this.MainTab.Controls.Add(this.LoginTab);
             this.MainTab.Controls.Add(this.NewUserTab);
-            this.MainTab.Location = new System.Drawing.Point(12, 12);
+            this.MainTab.Location = new System.Drawing.Point(11, 12);
             this.MainTab.Name = "MainTab";
             this.MainTab.SelectedIndex = 0;
-            this.MainTab.Size = new System.Drawing.Size(820, 524);
+            this.MainTab.Size = new System.Drawing.Size(820, 511);
             this.MainTab.TabIndex = 1;
             // 
             // HomeTab
             // 
+            this.HomeTab.Controls.Add(this.button1);
             this.HomeTab.Controls.Add(this.LogoutButton);
             this.HomeTab.Controls.Add(this.ViewStatsButton);
             this.HomeTab.Controls.Add(this.ManageContestantsButton);
@@ -145,14 +146,14 @@
             this.HomeTab.Location = new System.Drawing.Point(4, 22);
             this.HomeTab.Name = "HomeTab";
             this.HomeTab.Padding = new System.Windows.Forms.Padding(3);
-            this.HomeTab.Size = new System.Drawing.Size(812, 498);
+            this.HomeTab.Size = new System.Drawing.Size(812, 485);
             this.HomeTab.TabIndex = 0;
             this.HomeTab.Text = "Home";
             this.HomeTab.UseVisualStyleBackColor = true;
             // 
             // LogoutButton
             // 
-            this.LogoutButton.Location = new System.Drawing.Point(371, 469);
+            this.LogoutButton.Location = new System.Drawing.Point(731, 456);
             this.LogoutButton.Name = "LogoutButton";
             this.LogoutButton.Size = new System.Drawing.Size(75, 23);
             this.LogoutButton.TabIndex = 3;
@@ -163,9 +164,9 @@
             // ViewStatsButton
             // 
             this.ViewStatsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ViewStatsButton.Location = new System.Drawing.Point(107, 310);
+            this.ViewStatsButton.Location = new System.Drawing.Point(107, 308);
             this.ViewStatsButton.Name = "ViewStatsButton";
-            this.ViewStatsButton.Size = new System.Drawing.Size(600, 100);
+            this.ViewStatsButton.Size = new System.Drawing.Size(600, 90);
             this.ViewStatsButton.TabIndex = 2;
             this.ViewStatsButton.Text = "View Stats";
             this.ViewStatsButton.UseVisualStyleBackColor = true;
@@ -174,9 +175,9 @@
             // ManageContestantsButton
             // 
             this.ManageContestantsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ManageContestantsButton.Location = new System.Drawing.Point(107, 204);
+            this.ManageContestantsButton.Location = new System.Drawing.Point(107, 116);
             this.ManageContestantsButton.Name = "ManageContestantsButton";
-            this.ManageContestantsButton.Size = new System.Drawing.Size(600, 100);
+            this.ManageContestantsButton.Size = new System.Drawing.Size(600, 90);
             this.ManageContestantsButton.TabIndex = 1;
             this.ManageContestantsButton.Text = "Manage Contestants";
             this.ManageContestantsButton.UseVisualStyleBackColor = true;
@@ -185,9 +186,9 @@
             // PlayAMatchButton
             // 
             this.PlayAMatchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlayAMatchButton.Location = new System.Drawing.Point(107, 98);
+            this.PlayAMatchButton.Location = new System.Drawing.Point(107, 20);
             this.PlayAMatchButton.Name = "PlayAMatchButton";
-            this.PlayAMatchButton.Size = new System.Drawing.Size(600, 100);
+            this.PlayAMatchButton.Size = new System.Drawing.Size(600, 90);
             this.PlayAMatchButton.TabIndex = 0;
             this.PlayAMatchButton.Text = "Play a Match";
             this.PlayAMatchButton.UseVisualStyleBackColor = true;
@@ -206,7 +207,7 @@
             this.StartMatchTab.Location = new System.Drawing.Point(4, 22);
             this.StartMatchTab.Name = "StartMatchTab";
             this.StartMatchTab.Padding = new System.Windows.Forms.Padding(3);
-            this.StartMatchTab.Size = new System.Drawing.Size(812, 498);
+            this.StartMatchTab.Size = new System.Drawing.Size(812, 485);
             this.StartMatchTab.TabIndex = 1;
             this.StartMatchTab.Text = "Start Match";
             this.StartMatchTab.UseVisualStyleBackColor = true;
@@ -249,7 +250,7 @@
             // 
             // MatchBackButton
             // 
-            this.MatchBackButton.Location = new System.Drawing.Point(361, 469);
+            this.MatchBackButton.Location = new System.Drawing.Point(731, 456);
             this.MatchBackButton.Name = "MatchBackButton";
             this.MatchBackButton.Size = new System.Drawing.Size(75, 23);
             this.MatchBackButton.TabIndex = 12;
@@ -308,14 +309,14 @@
             this.MatchInProgressTab.Location = new System.Drawing.Point(4, 22);
             this.MatchInProgressTab.Name = "MatchInProgressTab";
             this.MatchInProgressTab.Padding = new System.Windows.Forms.Padding(3);
-            this.MatchInProgressTab.Size = new System.Drawing.Size(812, 498);
+            this.MatchInProgressTab.Size = new System.Drawing.Size(812, 485);
             this.MatchInProgressTab.TabIndex = 2;
             this.MatchInProgressTab.Text = "Match in Progress";
             this.MatchInProgressTab.UseVisualStyleBackColor = true;
             // 
             // CancelMatchButton
             // 
-            this.CancelMatchButton.Location = new System.Drawing.Point(377, 469);
+            this.CancelMatchButton.Location = new System.Drawing.Point(731, 456);
             this.CancelMatchButton.Name = "CancelMatchButton";
             this.CancelMatchButton.Size = new System.Drawing.Size(75, 23);
             this.CancelMatchButton.TabIndex = 11;
@@ -363,7 +364,7 @@
             this.MatchResolutionTab.Location = new System.Drawing.Point(4, 22);
             this.MatchResolutionTab.Name = "MatchResolutionTab";
             this.MatchResolutionTab.Padding = new System.Windows.Forms.Padding(3);
-            this.MatchResolutionTab.Size = new System.Drawing.Size(812, 498);
+            this.MatchResolutionTab.Size = new System.Drawing.Size(812, 485);
             this.MatchResolutionTab.TabIndex = 3;
             this.MatchResolutionTab.Text = "Match Resolution";
             this.MatchResolutionTab.UseVisualStyleBackColor = true;
@@ -380,7 +381,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(313, 346);
+            this.label6.Location = new System.Drawing.Point(313, 317);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 25);
             this.label6.TabIndex = 29;
@@ -389,7 +390,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(308, 309);
+            this.label7.Location = new System.Drawing.Point(308, 280);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(91, 25);
             this.label7.TabIndex = 28;
@@ -397,7 +398,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(405, 306);
+            this.textBox3.Location = new System.Drawing.Point(405, 277);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(162, 31);
             this.textBox3.TabIndex = 26;
@@ -405,7 +406,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(405, 343);
+            this.textBox4.Location = new System.Drawing.Point(405, 314);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(162, 31);
             this.textBox4.TabIndex = 27;
@@ -414,7 +415,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(310, 272);
+            this.label4.Location = new System.Drawing.Point(310, 243);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(89, 25);
             this.label4.TabIndex = 25;
@@ -423,7 +424,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(308, 235);
+            this.label5.Location = new System.Drawing.Point(308, 206);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(91, 25);
             this.label5.TabIndex = 24;
@@ -431,7 +432,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(405, 232);
+            this.textBox1.Location = new System.Drawing.Point(405, 203);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(162, 31);
             this.textBox1.TabIndex = 22;
@@ -439,7 +440,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(405, 269);
+            this.textBox2.Location = new System.Drawing.Point(405, 240);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(162, 31);
             this.textBox2.TabIndex = 23;
@@ -481,9 +482,10 @@
             // 
             // SubmitMatchButton
             // 
-            this.SubmitMatchButton.Location = new System.Drawing.Point(369, 400);
+            this.SubmitMatchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SubmitMatchButton.Location = new System.Drawing.Point(267, 389);
             this.SubmitMatchButton.Name = "SubmitMatchButton";
-            this.SubmitMatchButton.Size = new System.Drawing.Size(95, 33);
+            this.SubmitMatchButton.Size = new System.Drawing.Size(300, 90);
             this.SubmitMatchButton.TabIndex = 19;
             this.SubmitMatchButton.Text = "Submit Match";
             this.SubmitMatchButton.UseVisualStyleBackColor = true;
@@ -500,7 +502,7 @@
             this.ManageWhichTab.Location = new System.Drawing.Point(4, 22);
             this.ManageWhichTab.Name = "ManageWhichTab";
             this.ManageWhichTab.Padding = new System.Windows.Forms.Padding(3);
-            this.ManageWhichTab.Size = new System.Drawing.Size(812, 498);
+            this.ManageWhichTab.Size = new System.Drawing.Size(812, 485);
             this.ManageWhichTab.TabIndex = 4;
             this.ManageWhichTab.Text = "Manage Which";
             this.ManageWhichTab.UseVisualStyleBackColor = true;
@@ -508,7 +510,7 @@
             // ManageBackButton
             // 
             this.ManageBackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ManageBackButton.Location = new System.Drawing.Point(374, 469);
+            this.ManageBackButton.Location = new System.Drawing.Point(731, 456);
             this.ManageBackButton.Name = "ManageBackButton";
             this.ManageBackButton.Size = new System.Drawing.Size(75, 23);
             this.ManageBackButton.TabIndex = 9;
@@ -518,7 +520,7 @@
             // 
             // GOTOEditTeamButton
             // 
-            this.GOTOEditTeamButton.Location = new System.Drawing.Point(427, 250);
+            this.GOTOEditTeamButton.Location = new System.Drawing.Point(427, 179);
             this.GOTOEditTeamButton.Name = "GOTOEditTeamButton";
             this.GOTOEditTeamButton.Size = new System.Drawing.Size(300, 100);
             this.GOTOEditTeamButton.TabIndex = 8;
@@ -528,7 +530,7 @@
             // 
             // GOTOEditPlayerButton
             // 
-            this.GOTOEditPlayerButton.Location = new System.Drawing.Point(95, 250);
+            this.GOTOEditPlayerButton.Location = new System.Drawing.Point(95, 179);
             this.GOTOEditPlayerButton.Name = "GOTOEditPlayerButton";
             this.GOTOEditPlayerButton.Size = new System.Drawing.Size(300, 100);
             this.GOTOEditPlayerButton.TabIndex = 7;
@@ -538,7 +540,7 @@
             // 
             // GOTOAddTeambutton
             // 
-            this.GOTOAddTeambutton.Location = new System.Drawing.Point(427, 144);
+            this.GOTOAddTeambutton.Location = new System.Drawing.Point(427, 48);
             this.GOTOAddTeambutton.Name = "GOTOAddTeambutton";
             this.GOTOAddTeambutton.Size = new System.Drawing.Size(300, 100);
             this.GOTOAddTeambutton.TabIndex = 6;
@@ -548,7 +550,7 @@
             // 
             // GOTOAddPlayerButton
             // 
-            this.GOTOAddPlayerButton.Location = new System.Drawing.Point(95, 144);
+            this.GOTOAddPlayerButton.Location = new System.Drawing.Point(95, 48);
             this.GOTOAddPlayerButton.Name = "GOTOAddPlayerButton";
             this.GOTOAddPlayerButton.Size = new System.Drawing.Size(300, 100);
             this.GOTOAddPlayerButton.TabIndex = 5;
@@ -558,6 +560,7 @@
             // 
             // AddPlayerTab
             // 
+            this.AddPlayerTab.Controls.Add(this.textBox14);
             this.AddPlayerTab.Controls.Add(this.AddPlayerCancelButton);
             this.AddPlayerTab.Controls.Add(this.textBox5);
             this.AddPlayerTab.Controls.Add(this.button8);
@@ -565,14 +568,14 @@
             this.AddPlayerTab.Location = new System.Drawing.Point(4, 22);
             this.AddPlayerTab.Name = "AddPlayerTab";
             this.AddPlayerTab.Padding = new System.Windows.Forms.Padding(3);
-            this.AddPlayerTab.Size = new System.Drawing.Size(812, 498);
+            this.AddPlayerTab.Size = new System.Drawing.Size(812, 485);
             this.AddPlayerTab.TabIndex = 5;
             this.AddPlayerTab.Text = "Add Player";
             this.AddPlayerTab.UseVisualStyleBackColor = true;
             // 
             // AddPlayerCancelButton
             // 
-            this.AddPlayerCancelButton.Location = new System.Drawing.Point(363, 258);
+            this.AddPlayerCancelButton.Location = new System.Drawing.Point(731, 456);
             this.AddPlayerCancelButton.Name = "AddPlayerCancelButton";
             this.AddPlayerCancelButton.Size = new System.Drawing.Size(75, 23);
             this.AddPlayerCancelButton.TabIndex = 7;
@@ -582,7 +585,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(363, 217);
+            this.textBox5.Location = new System.Drawing.Point(363, 221);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(81, 20);
             this.textBox5.TabIndex = 6;
@@ -590,7 +593,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(461, 217);
+            this.button8.Location = new System.Drawing.Point(537, 219);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 23);
             this.button8.TabIndex = 5;
@@ -599,7 +602,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(276, 218);
+            this.textBox6.Location = new System.Drawing.Point(276, 221);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(81, 20);
             this.textBox6.TabIndex = 4;
@@ -615,14 +618,14 @@
             this.AddTeamTab.Location = new System.Drawing.Point(4, 22);
             this.AddTeamTab.Name = "AddTeamTab";
             this.AddTeamTab.Padding = new System.Windows.Forms.Padding(3);
-            this.AddTeamTab.Size = new System.Drawing.Size(812, 498);
+            this.AddTeamTab.Size = new System.Drawing.Size(812, 485);
             this.AddTeamTab.TabIndex = 6;
             this.AddTeamTab.Text = "Add Team";
             this.AddTeamTab.UseVisualStyleBackColor = true;
             // 
             // AddTeamCancelButton
             // 
-            this.AddTeamCancelButton.Location = new System.Drawing.Point(361, 383);
+            this.AddTeamCancelButton.Location = new System.Drawing.Point(731, 456);
             this.AddTeamCancelButton.Name = "AddTeamCancelButton";
             this.AddTeamCancelButton.Size = new System.Drawing.Size(75, 23);
             this.AddTeamCancelButton.TabIndex = 10;
@@ -665,84 +668,23 @@
             this.button10.Text = "add";
             this.button10.UseVisualStyleBackColor = true;
             // 
-            // EditPlayerTab
-            // 
-            this.EditPlayerTab.Controls.Add(this.EditPlayerCancelButton);
-            this.EditPlayerTab.Controls.Add(this.comboBox4);
-            this.EditPlayerTab.Controls.Add(this.textBox8);
-            this.EditPlayerTab.Controls.Add(this.comboBox3);
-            this.EditPlayerTab.Controls.Add(this.button12);
-            this.EditPlayerTab.Location = new System.Drawing.Point(4, 22);
-            this.EditPlayerTab.Name = "EditPlayerTab";
-            this.EditPlayerTab.Padding = new System.Windows.Forms.Padding(3);
-            this.EditPlayerTab.Size = new System.Drawing.Size(812, 498);
-            this.EditPlayerTab.TabIndex = 7;
-            this.EditPlayerTab.Text = "Edit Player";
-            this.EditPlayerTab.UseVisualStyleBackColor = true;
-            // 
-            // EditPlayerCancelButton
-            // 
-            this.EditPlayerCancelButton.Location = new System.Drawing.Point(363, 285);
-            this.EditPlayerCancelButton.Name = "EditPlayerCancelButton";
-            this.EditPlayerCancelButton.Size = new System.Drawing.Size(75, 23);
-            this.EditPlayerCancelButton.TabIndex = 14;
-            this.EditPlayerCancelButton.Text = "cancel";
-            this.EditPlayerCancelButton.UseVisualStyleBackColor = true;
-            this.EditPlayerCancelButton.Click += new System.EventHandler(this.CancelToManageWhat_Click);
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(450, 191);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
-            this.comboBox4.TabIndex = 13;
-            this.comboBox4.Text = "status";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(281, 232);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(81, 20);
-            this.textBox8.TabIndex = 12;
-            this.textBox8.Text = "last name";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(241, 193);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
-            this.comboBox3.TabIndex = 11;
-            this.comboBox3.Text = "player to edit";
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(450, 232);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(103, 23);
-            this.button12.TabIndex = 10;
-            this.button12.Text = "make change";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
             // EditTeamTab
             // 
+            this.EditTeamTab.Controls.Add(this.label10);
             this.EditTeamTab.Controls.Add(this.EditTeamCancelButton);
-            this.EditTeamTab.Controls.Add(this.comboBox5);
-            this.EditTeamTab.Controls.Add(this.textBox9);
             this.EditTeamTab.Controls.Add(this.comboBox6);
             this.EditTeamTab.Controls.Add(this.button14);
             this.EditTeamTab.Location = new System.Drawing.Point(4, 22);
             this.EditTeamTab.Name = "EditTeamTab";
             this.EditTeamTab.Padding = new System.Windows.Forms.Padding(3);
-            this.EditTeamTab.Size = new System.Drawing.Size(812, 498);
+            this.EditTeamTab.Size = new System.Drawing.Size(812, 485);
             this.EditTeamTab.TabIndex = 8;
             this.EditTeamTab.Text = "Edit Team";
             this.EditTeamTab.UseVisualStyleBackColor = true;
             // 
             // EditTeamCancelButton
             // 
-            this.EditTeamCancelButton.Location = new System.Drawing.Point(374, 363);
+            this.EditTeamCancelButton.Location = new System.Drawing.Point(731, 456);
             this.EditTeamCancelButton.Name = "EditTeamCancelButton";
             this.EditTeamCancelButton.Size = new System.Drawing.Size(75, 23);
             this.EditTeamCancelButton.TabIndex = 14;
@@ -750,35 +692,18 @@
             this.EditTeamCancelButton.UseVisualStyleBackColor = true;
             this.EditTeamCancelButton.Click += new System.EventHandler(this.CancelToManageWhat_Click);
             // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(379, 179);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 21);
-            this.comboBox5.TabIndex = 13;
-            this.comboBox5.Text = "status";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(252, 206);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(121, 20);
-            this.textBox9.TabIndex = 12;
-            this.textBox9.Text = "team name";
-            // 
             // comboBox6
             // 
             this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(252, 179);
+            this.comboBox6.Location = new System.Drawing.Point(104, 82);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(121, 21);
             this.comboBox6.TabIndex = 11;
-            this.comboBox6.Text = "player to edit";
+            this.comboBox6.Text = "team to edit";
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(374, 288);
+            this.button14.Location = new System.Drawing.Point(511, 80);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(103, 23);
             this.button14.TabIndex = 10;
@@ -795,14 +720,14 @@
             this.LoginTab.Location = new System.Drawing.Point(4, 22);
             this.LoginTab.Name = "LoginTab";
             this.LoginTab.Padding = new System.Windows.Forms.Padding(3);
-            this.LoginTab.Size = new System.Drawing.Size(812, 498);
+            this.LoginTab.Size = new System.Drawing.Size(812, 485);
             this.LoginTab.TabIndex = 9;
             this.LoginTab.Text = "Login";
             this.LoginTab.UseVisualStyleBackColor = true;
             // 
             // ExitButton
             // 
-            this.ExitButton.Location = new System.Drawing.Point(731, 469);
+            this.ExitButton.Location = new System.Drawing.Point(731, 456);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(75, 23);
             this.ExitButton.TabIndex = 8;
@@ -855,14 +780,14 @@
             this.NewUserTab.Location = new System.Drawing.Point(4, 22);
             this.NewUserTab.Name = "NewUserTab";
             this.NewUserTab.Padding = new System.Windows.Forms.Padding(3);
-            this.NewUserTab.Size = new System.Drawing.Size(812, 498);
+            this.NewUserTab.Size = new System.Drawing.Size(812, 485);
             this.NewUserTab.TabIndex = 10;
             this.NewUserTab.Text = "New User";
             this.NewUserTab.UseVisualStyleBackColor = true;
             // 
             // NewUserBackButton
             // 
-            this.NewUserBackButton.Location = new System.Drawing.Point(353, 358);
+            this.NewUserBackButton.Location = new System.Drawing.Point(731, 456);
             this.NewUserBackButton.Name = "NewUserBackButton";
             this.NewUserBackButton.Size = new System.Drawing.Size(75, 23);
             this.NewUserBackButton.TabIndex = 12;
@@ -898,17 +823,95 @@
             // 
             // FoosStatusStrip
             // 
-            this.FoosStatusStrip.Location = new System.Drawing.Point(0, 539);
+            this.FoosStatusStrip.Location = new System.Drawing.Point(0, 525);
             this.FoosStatusStrip.Name = "FoosStatusStrip";
-            this.FoosStatusStrip.Size = new System.Drawing.Size(844, 22);
+            this.FoosStatusStrip.Size = new System.Drawing.Size(843, 22);
             this.FoosStatusStrip.TabIndex = 2;
             this.FoosStatusStrip.Text = "FoosStatusStrip";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(450, 221);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(81, 20);
+            this.textBox14.TabIndex = 8;
+            this.textBox14.Text = "F-ID";
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(477, 90);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(103, 23);
+            this.button12.TabIndex = 10;
+            this.button12.Text = "make change";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(77, 92);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 21);
+            this.comboBox3.TabIndex = 11;
+            this.comboBox3.Text = "player to edit";
+            // 
+            // EditPlayerCancelButton
+            // 
+            this.EditPlayerCancelButton.Location = new System.Drawing.Point(731, 456);
+            this.EditPlayerCancelButton.Name = "EditPlayerCancelButton";
+            this.EditPlayerCancelButton.Size = new System.Drawing.Size(75, 23);
+            this.EditPlayerCancelButton.TabIndex = 14;
+            this.EditPlayerCancelButton.Text = "cancel";
+            this.EditPlayerCancelButton.UseVisualStyleBackColor = true;
+            this.EditPlayerCancelButton.Click += new System.EventHandler(this.CancelToManageWhat_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(204, 100);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(205, 13);
+            this.label9.TabIndex = 15;
+            this.label9.Text = "all information pertaining to selscted palyer";
+            // 
+            // EditPlayerTab
+            // 
+            this.EditPlayerTab.Controls.Add(this.label9);
+            this.EditPlayerTab.Controls.Add(this.EditPlayerCancelButton);
+            this.EditPlayerTab.Controls.Add(this.comboBox3);
+            this.EditPlayerTab.Controls.Add(this.button12);
+            this.EditPlayerTab.Location = new System.Drawing.Point(4, 22);
+            this.EditPlayerTab.Name = "EditPlayerTab";
+            this.EditPlayerTab.Padding = new System.Windows.Forms.Padding(3);
+            this.EditPlayerTab.Size = new System.Drawing.Size(812, 485);
+            this.EditPlayerTab.TabIndex = 7;
+            this.EditPlayerTab.Text = "Edit Player";
+            this.EditPlayerTab.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(249, 90);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(200, 13);
+            this.label10.TabIndex = 16;
+            this.label10.Text = "all information pertaining to selscted team";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(107, 212);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(600, 90);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Lookup Teams";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(844, 561);
+            this.ClientSize = new System.Drawing.Size(843, 547);
             this.Controls.Add(this.FoosStatusStrip);
             this.Controls.Add(this.MainTab);
             this.Name = "MainForm";
@@ -927,14 +930,14 @@
             this.AddPlayerTab.PerformLayout();
             this.AddTeamTab.ResumeLayout(false);
             this.AddTeamTab.PerformLayout();
-            this.EditPlayerTab.ResumeLayout(false);
-            this.EditPlayerTab.PerformLayout();
             this.EditTeamTab.ResumeLayout(false);
             this.EditTeamTab.PerformLayout();
             this.LoginTab.ResumeLayout(false);
             this.LoginTab.PerformLayout();
             this.NewUserTab.ResumeLayout(false);
             this.NewUserTab.PerformLayout();
+            this.EditPlayerTab.ResumeLayout(false);
+            this.EditPlayerTab.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -975,7 +978,6 @@
         private System.Windows.Forms.StatusStrip FoosStatusStrip;
         private System.Windows.Forms.TabPage AddPlayerTab;
         private System.Windows.Forms.TabPage AddTeamTab;
-        private System.Windows.Forms.TabPage EditPlayerTab;
         private System.Windows.Forms.TabPage EditTeamTab;
         private System.Windows.Forms.TabPage LoginTab;
         private System.Windows.Forms.Button GOTOEditTeamButton;
@@ -991,14 +993,7 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button EditPlayerCancelButton;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button EditTeamCancelButton;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.TextBox textBox10;
@@ -1017,5 +1012,13 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TabPage EditPlayerTab;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button EditPlayerCancelButton;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button1;
     }
 }
