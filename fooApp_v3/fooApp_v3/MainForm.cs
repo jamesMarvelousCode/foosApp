@@ -16,6 +16,8 @@ namespace fooApp_v3
         public MainForm()
         {
             InitializeComponent();
+            //comment
+
         }
 
         private void MainForm_Load(object sender, EventArgs e)
