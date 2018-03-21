@@ -95,7 +95,7 @@
             this.button_Exit = new System.Windows.Forms.Button();
             this.textBox_PasswordEntry = new System.Windows.Forms.TextBox();
             this.textBox_IDEntry = new System.Windows.Forms.TextBox();
-            this.button_CreateNewUser = new System.Windows.Forms.Button();
+            this.button_OpenCreateNewUser = new System.Windows.Forms.Button();
             this.button_Login = new System.Windows.Forms.Button();
             this.tabPage_NewUser = new System.Windows.Forms.TabPage();
             this.button_ClearNewUser = new System.Windows.Forms.Button();
@@ -106,7 +106,7 @@
             this.button_BackNewUser = new System.Windows.Forms.Button();
             this.textBox_NewUserLastName = new System.Windows.Forms.TextBox();
             this.textBox_NewUserFirstName = new System.Windows.Forms.TextBox();
-            this.CreateNewUserButton = new System.Windows.Forms.Button();
+            this.button_CreateNewUser = new System.Windows.Forms.Button();
             this.FoosStatusStrip = new System.Windows.Forms.StatusStrip();
             this.tabControl_MainTab.SuspendLayout();
             this.tabPage_Home.SuspendLayout();
@@ -799,7 +799,7 @@
             this.tabPage_Login.Controls.Add(this.button_Exit);
             this.tabPage_Login.Controls.Add(this.textBox_PasswordEntry);
             this.tabPage_Login.Controls.Add(this.textBox_IDEntry);
-            this.tabPage_Login.Controls.Add(this.button_CreateNewUser);
+            this.tabPage_Login.Controls.Add(this.button_OpenCreateNewUser);
             this.tabPage_Login.Controls.Add(this.button_Login);
             this.tabPage_Login.Location = new System.Drawing.Point(4, 22);
             this.tabPage_Login.Name = "tabPage_Login";
@@ -835,15 +835,15 @@
             this.textBox_IDEntry.TabIndex = 6;
             this.textBox_IDEntry.Text = "Enter F-ID";
             // 
-            // button_CreateNewUser
+            // button_OpenCreateNewUser
             // 
-            this.button_CreateNewUser.Location = new System.Drawing.Point(353, 301);
-            this.button_CreateNewUser.Name = "button_CreateNewUser";
-            this.button_CreateNewUser.Size = new System.Drawing.Size(106, 23);
-            this.button_CreateNewUser.TabIndex = 5;
-            this.button_CreateNewUser.Text = "Create New User";
-            this.button_CreateNewUser.UseVisualStyleBackColor = true;
-            this.button_CreateNewUser.Click += new System.EventHandler(this.GOTOCreatNewUserButton_Click);
+            this.button_OpenCreateNewUser.Location = new System.Drawing.Point(353, 301);
+            this.button_OpenCreateNewUser.Name = "button_OpenCreateNewUser";
+            this.button_OpenCreateNewUser.Size = new System.Drawing.Size(106, 23);
+            this.button_OpenCreateNewUser.TabIndex = 5;
+            this.button_OpenCreateNewUser.Text = "Create New User";
+            this.button_OpenCreateNewUser.UseVisualStyleBackColor = true;
+            this.button_OpenCreateNewUser.Click += new System.EventHandler(this.GOTOCreatNewUserButton_Click);
             // 
             // button_Login
             // 
@@ -865,7 +865,7 @@
             this.tabPage_NewUser.Controls.Add(this.button_BackNewUser);
             this.tabPage_NewUser.Controls.Add(this.textBox_NewUserLastName);
             this.tabPage_NewUser.Controls.Add(this.textBox_NewUserFirstName);
-            this.tabPage_NewUser.Controls.Add(this.CreateNewUserButton);
+            this.tabPage_NewUser.Controls.Add(this.button_CreateNewUser);
             this.tabPage_NewUser.Location = new System.Drawing.Point(4, 22);
             this.tabPage_NewUser.Name = "tabPage_NewUser";
             this.tabPage_NewUser.Padding = new System.Windows.Forms.Padding(3);
@@ -941,15 +941,15 @@
             this.textBox_NewUserFirstName.TabIndex = 10;
             this.textBox_NewUserFirstName.Text = "First Name";
             // 
-            // CreateNewUserButton
+            // button_CreateNewUser
             // 
-            this.CreateNewUserButton.Location = new System.Drawing.Point(353, 333);
-            this.CreateNewUserButton.Name = "CreateNewUserButton";
-            this.CreateNewUserButton.Size = new System.Drawing.Size(120, 23);
-            this.CreateNewUserButton.TabIndex = 9;
-            this.CreateNewUserButton.Text = "Create New User";
-            this.CreateNewUserButton.UseVisualStyleBackColor = true;
-            this.CreateNewUserButton.Click += new System.EventHandler(this.CreateNewUserButton_Click);
+            this.button_CreateNewUser.Location = new System.Drawing.Point(353, 333);
+            this.button_CreateNewUser.Name = "button_CreateNewUser";
+            this.button_CreateNewUser.Size = new System.Drawing.Size(120, 23);
+            this.button_CreateNewUser.TabIndex = 9;
+            this.button_CreateNewUser.Text = "Create New User";
+            this.button_CreateNewUser.UseVisualStyleBackColor = true;
+            this.button_CreateNewUser.Click += new System.EventHandler(this.CreateNewUserButton_Click);
             // 
             // FoosStatusStrip
             // 
@@ -1050,7 +1050,7 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.TextBox textBox_PasswordEntry;
         private System.Windows.Forms.TextBox textBox_IDEntry;
-        private System.Windows.Forms.Button button_CreateNewUser;//this
+        private System.Windows.Forms.Button button_OpenCreateNewUser;//this
         private System.Windows.Forms.Button button_Login;
         private System.Windows.Forms.TabPage tabPage_NewUser;
         private System.Windows.Forms.Button button_BackPlayMatch;
@@ -1059,7 +1059,7 @@
         private System.Windows.Forms.Button button_Exit;
         private System.Windows.Forms.TextBox textBox_NewUserLastName;
         private System.Windows.Forms.TextBox textBox_NewUserFirstName;
-        private System.Windows.Forms.Button CreateNewUserButton;//this
+        private System.Windows.Forms.Button button_CreateNewUser;//this
         private System.Windows.Forms.Button button_BackNewUser;
         private System.Windows.Forms.RadioButton radioButton_PlayerContestantOne;
         private System.Windows.Forms.RadioButton radioButton_PlayerContestantTwo;
