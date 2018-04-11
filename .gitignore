@@ -8,6 +8,7 @@ Debug/
 # Ignore folder named 'v14'
 v14/
 
+# Ignore folder named ''
 
 
 
@@ -17,9 +18,11 @@ v14/
 ###############################
 ###		  FILE IGNORES		###
 ###############################
+
 # Ignore file named 'packages.config'
 packages.config
 
-
+# Ingore files ending with '.orig'
+*.orig
 
 ###############################

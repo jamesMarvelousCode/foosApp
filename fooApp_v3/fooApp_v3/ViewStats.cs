@@ -36,5 +36,11 @@ namespace fooApp_v3
         {
 
         }
+
+        private void button_exitViewStats_Click(object sender, EventArgs e)
+        {
+           
+            this.Close();
+        }
     }
 }
