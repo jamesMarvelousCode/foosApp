@@ -1,0 +1,25 @@
+###############################
+###		FOLDER IGNORES		###
+###############################
+
+# Ignore folder named 'Debug'
+Debug/
+
+# Ignore folder named 'v14'
+v14/
+
+
+
+
+###############################
+
+
+###############################
+###		  FILE IGNORES		###
+###############################
+# Ignore file named 'packages.config'
+packages.config
+
+
+
+###############################

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using fooApp_v3.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,7 @@ namespace fooApp_v3
         public MainForm()
         {
             InitializeComponent();
+            Constants.StartupRoutine.Do_All_StartupRoutines();
         }
 
         private void MainForm_Load(object sender, EventArgs e)
