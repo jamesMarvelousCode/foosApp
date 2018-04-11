@@ -124,22 +124,10 @@ namespace fooApp_v3
             tabControl_MainTab.SelectTab(tabPage_NewUser);
         }
 
-        private void GOTOAddPlayerButton_Click(object sender, EventArgs e)
-        {
-            //opens the add player tab
-            tabControl_MainTab.SelectTab(tabPage_AddPlayer);
-        }
-
         private void GOTOAddTeambutton_Click(object sender, EventArgs e)
         {
             //opens the add team tab
             tabControl_MainTab.SelectTab(tabPage_AddTeam);
-        }
-
-        private void GOTOEditPlayerButton_Click(object sender, EventArgs e)
-        {
-            //opens the edit player tab
-            tabControl_MainTab.SelectTab(tabPage_EditPlayer);
         }
 
         private void GOTOEditTeamButton_Click(object sender, EventArgs e)
@@ -147,11 +135,6 @@ namespace fooApp_v3
             //opens the edit team tab
             tabControl_MainTab.SelectTab(tabpage_EditTeam);
             //test change
-
-        }
-
-        private void tabPage_Home_Click(object sender, EventArgs e)
-        {
 
         }
     }
